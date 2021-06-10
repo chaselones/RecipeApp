@@ -71,8 +71,13 @@
 
 iframe {
   max-width: 100%;
+  margin-bottom: 100px;
 }
 
 img {
   max-width: 100%;
+}
+
+body{
+  background-color: white;
 }
