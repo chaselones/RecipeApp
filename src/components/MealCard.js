@@ -20,11 +20,11 @@ const MealCard = (props) => {
                     <CardText className="mt-2">
                         <h5>{props.category}</h5>
                     </CardText>
-                    <Router basename={process.env.PUBLIC_URL} >
-                        <Link to={`/recipe/${props.id}`}>
-                            <button className="btn btn-outline-secondary recipeButton"> Recipe</button>
-                        </Link>
-                    </Router>
+
+                    <Link to={`/recipe/${props.id}`}>
+                        <button className="btn btn-outline-secondary recipeButton"> Recipe</button>
+                    </Link>
+
                 </CardBody>
             </Card>
         </div>
