@@ -65,7 +65,7 @@ export default class App extends Component {
               <input
                 type="text"
                 name="foodType"
-                placeholder="Search A Food Type"
+                placeholder="Search for a recipe!"
                 onChange={this.handleInputChange}
                 className="searchBox"
               />
